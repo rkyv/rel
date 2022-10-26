@@ -1,0 +1,10 @@
+[book]
+authors = ["David Koloski"]
+language = "en"
+multilingual = false
+src = "book"
+title = "rel"
+
+[output.html]
+cname = "rel.rkyv.org"
+edit-url-template = "https://github.com/rkyv/rel/edit/main/{path}"

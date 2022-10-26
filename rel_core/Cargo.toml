@@ -1,0 +1,37 @@
+[package]
+name = "rel_core"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.mischief]
+version = "0.1"
+path = "../mischief"
+default-features = false
+
+[dependencies.munge]
+version = "0.4"
+git = "https://github.com/djkoloski/munge"
+
+[dependencies.ptr_meta]
+version = "0.2"
+default-features = false
+
+[dependencies.raw_enum_macro]
+version = "0.1"
+path = "../raw_enum_macro"
+
+[dependencies.rel_core_derive]
+version = "0.1"
+path = "../rel_core_derive"
+
+[dependencies.situ]
+version = "0.1"
+path = "../situ"
+
+[features]
+default = ["little_endian", "basis_32"]
+little_endian = []
+big_endian = []
+basis_16 = []
+basis_32 = []
+basis_64 = []

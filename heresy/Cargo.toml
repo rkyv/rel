@@ -1,0 +1,12 @@
+[package]
+name = "heresy"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.ptr_meta]
+version = "0.2"
+default-features = false
+
+[features]
+default = ["alloc"]
+alloc = []

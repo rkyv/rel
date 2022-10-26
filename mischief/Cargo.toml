@@ -1,0 +1,27 @@
+[package]
+name = "mischief"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.heresy]
+version = "0.1"
+path = "../heresy"
+default-features = false
+
+[dependencies.mischief_derive]
+version = "0.1"
+path = "../mischief_derive"
+optional = true
+
+[dependencies.munge]
+version = "0.4"
+git = "https://github.com/djkoloski/munge"
+
+[dependencies.ptr_meta]
+version = "0.2"
+default-features = false
+
+[features]
+default = ["alloc", "derive"]
+alloc = ["heresy/alloc"]
+derive = ["mischief_derive"]

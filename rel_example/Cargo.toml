@@ -1,0 +1,40 @@
+[package]
+name = "rel_example"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+ptr_meta = "0.2"
+
+[dependencies.heresy]
+version = "0.1"
+path = "../heresy"
+
+[dependencies.mischief]
+version = "0.1"
+path = "../mischief"
+
+[dependencies.munge]
+version = "0.4"
+git = "https://github.com/djkoloski/munge"
+
+[dependencies.rel_alloc]
+version = "0.1"
+path = "../rel_alloc"
+
+[dependencies.rel_core]
+version = "0.1"
+path = "../rel_core"
+
+[dependencies.rel_slab_allocator]
+version = "0.1"
+path = "../rel_slab_allocator"
+
+[dependencies.rel_util]
+version = "0.1"
+path = "../rel_util"
+
+[dependencies.situ]
+version = "0.1"
+path = "../situ"

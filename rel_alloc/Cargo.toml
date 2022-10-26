@@ -1,0 +1,57 @@
+[package]
+name = "rel_alloc"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.heresy]
+version = "0.1"
+path = "../heresy"
+default-features = false
+
+[dependencies.mischief]
+version = "0.1"
+path = "../mischief"
+default-features = false
+
+[dependencies.munge]
+version = "0.4"
+git = "https://github.com/djkoloski/munge"
+
+[dependencies.ptr_meta]
+version = "0.2"
+default-features = false
+
+[dependencies.rel_core]
+version = "0.1"
+path = "../rel_core"
+default-features = false
+
+[dependencies.situ]
+version = "0.1"
+path = "../situ"
+
+[features]
+default = ["alloc"]
+alloc = ["heresy/alloc"]
+
+[dev-dependencies]
+criterion = "0.4"
+rand = "0.8"
+rand_pcg = "0.3"
+
+[dev-dependencies.rel_slab_allocator]
+version = "0.1"
+path = "../rel_slab_allocator"
+
+[dev-dependencies.rel_util]
+version = "0.1"
+path = "../rel_util"
+
+[[test]]
+name = "test"
+path = "bench_tests/test.rs"
+
+[[bench]]
+name = "bench"
+path = "bench_tests/bench.rs"
+harness = false

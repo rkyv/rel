@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "heresy",
+    "macroix",
+    "mischief",
+    "mischief_derive",
+    "raw_enum",
+    "raw_enum_macro",
+    "rel_alloc",
+    "rel_core",
+    "rel_core_derive",
+    "rel_example",
+    "rel_slab_allocator",
+    "rel_util",
+    "situ",
+]
+
+[profile.bench]
+# Uncomment to profile
+# debug = true
