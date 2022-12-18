@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"derive":[["DropRaw","Derives `DropRaw` on the annotated type."]]};

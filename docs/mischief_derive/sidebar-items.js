@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"derive":[["Singleton","Derives `Singleton` on the annotated type."],["Unique","Derives `Unique` on the annotated type."]]};

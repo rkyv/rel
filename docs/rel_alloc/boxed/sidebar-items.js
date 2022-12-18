@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["RelBox","A relative counterpart to `Box`."]]};

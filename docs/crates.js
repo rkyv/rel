@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["heresy","macroix","mischief","mischief_derive","munge","munge_macro","proc_macro2","ptr_meta","ptr_meta_derive","quote","raw_enum","raw_enum_macro","rel_alloc","rel_core","rel_core_derive","rel_example","rel_slab_allocator","rel_util","situ","situ_derive","syn","unicode_ident"];

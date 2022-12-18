@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["RelRef","A reference stored using a relative pointer."]]};

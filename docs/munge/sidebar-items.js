@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"macro":[["munge","Projects a type to its fields using destructuring."]],"struct":[["Ref","Destructuring by reference."],["Value","Destructuring by value."]],"trait":[["Destructure","A type that can be destructured into its constituent parts."],["Restructure","A type that can be “restructured” as a field of some containing type."]]};

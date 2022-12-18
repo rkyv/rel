@@ -1,0 +1,25 @@
+var sourcesIndex = JSON.parse('{\
+"heresy":["",[],["alloc.rs","boxed.rs","lib.rs"]],\
+"macroix":["",[],["attr_value.rs","case.rs","lib.rs","repr.rs"]],\
+"mischief":["",[["unique",[],["ghost_ref.rs","mod.rs","static_ref.rs","token.rs"]]],["frame.rs","in.rs","lib.rs","metadata.rs","pointer.rs","region.rs","slot.rs"]],\
+"mischief_derive":["",[],["lib.rs","singleton.rs","unique.rs"]],\
+"munge":["",[],["impls.rs","internal.rs","lib.rs"]],\
+"munge_macro":["",[],["lib.rs"]],\
+"proc_macro2":["",[],["detection.rs","fallback.rs","lib.rs","marker.rs","parse.rs","rcvec.rs","wrapper.rs"]],\
+"ptr_meta":["",[],["impls.rs","lib.rs"]],\
+"ptr_meta_derive":["",[],["lib.rs"]],\
+"quote":["",[],["ext.rs","format.rs","ident_fragment.rs","lib.rs","runtime.rs","spanned.rs","to_tokens.rs"]],\
+"raw_enum":["",[],["lib.rs"]],\
+"raw_enum_macro":["",[],["lib.rs"]],\
+"rel_alloc":["",[],["alloc.rs","boxed.rs","emplace_in.rs","lib.rs","string.rs","vec.rs"]],\
+"rel_core":["",[["emplace",[],["impls.rs","mod.rs"]],["move",[],["impls.rs","mod.rs"]]],["basis.rs","export.rs","lib.rs","option.rs","portable.rs","primitive.rs","rel_mem.rs","rel_ptr.rs","rel_ref.rs","rel_tuple.rs"]],\
+"rel_core_derive":["",[],["lib.rs","move.rs","portable.rs"]],\
+"rel_example":["",[],["main.rs"]],\
+"rel_slab_allocator":["",[],["lib.rs"]],\
+"rel_util":["",[],["lib.rs"]],\
+"situ":["",[["alloc",[],["allocator.rs","mod.rs","regional.rs"]],["drop",[],["impls.rs","mod.rs"]]],["fmt.rs","lib.rs","mut.rs","ops.rs","owned_val.rs","pinned.rs","ref.rs","str.rs","val.rs"]],\
+"situ_derive":["",[],["drop_raw.rs","lib.rs"]],\
+"syn":["",[["gen",[],["clone.rs","gen_helper.rs","visit.rs"]]],["attr.rs","await.rs","bigint.rs","buffer.rs","custom_keyword.rs","custom_punctuation.rs","data.rs","derive.rs","discouraged.rs","drops.rs","error.rs","export.rs","expr.rs","ext.rs","file.rs","generics.rs","group.rs","ident.rs","item.rs","lib.rs","lifetime.rs","lit.rs","lookahead.rs","mac.rs","macros.rs","op.rs","parse.rs","parse_macro_input.rs","parse_quote.rs","pat.rs","path.rs","print.rs","punctuated.rs","reserved.rs","sealed.rs","span.rs","spanned.rs","stmt.rs","thread.rs","token.rs","ty.rs","verbatim.rs","whitespace.rs"]],\
+"unicode_ident":["",[],["lib.rs","tables.rs"]]\
+}');
+createSourceSidebar();

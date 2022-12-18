@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"rel_slab_allocator":[["impl&lt;U:&nbsp;<a class=\"trait\" href=\"mischief/unique/trait.Unique.html\" title=\"trait mischief::unique::Unique\">Unique</a>&gt; <a class=\"trait\" href=\"mischief/region/trait.Region.html\" title=\"trait mischief::region::Region\">Region</a> for <a class=\"struct\" href=\"rel_slab_allocator/struct.SlabRegion.html\" title=\"struct rel_slab_allocator::SlabRegion\">SlabRegion</a>&lt;U&gt;"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()

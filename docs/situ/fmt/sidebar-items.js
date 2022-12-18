@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"trait":[["DebugRaw","`?` formatting for raw references."],["DisplayRaw","Format trait for an empty format, `{}`."]]};

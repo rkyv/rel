@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["pascal_to_snake","Converts a name from `PascalCase` to `snake_case`."]]};

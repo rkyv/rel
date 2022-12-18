@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"derive":[["Move","Derives `Move` on the annotated type."],["Portable","Derives `Portable` on the annotated type."]]};

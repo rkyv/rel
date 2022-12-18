@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"enum":[["RelOption","A relative counterpart to `Option`."]]};

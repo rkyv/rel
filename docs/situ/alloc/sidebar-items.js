@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"trait":[["RawAllocator","An implementation of `RawAllocator` can allocate, grow, shrink, and deallocate arbitrary blocks of data described via `Layout`."],["RawRegionalAllocator","A `RawAllocator` that allocates inside a single contiguous memory region."]]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"trait":[["DerefMutRaw","A variant of `DerefMut` that works with raw references."],["DerefRaw","A variant of `Deref` that works with raw references."],["IndexMutRaw","A variant of `IndexMut` that works with raw references."],["IndexRaw","A variant of `Index` that works with raw references."]]};

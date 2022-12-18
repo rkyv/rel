@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["Clone","An emplacer for a `RelString` that copies its bytes from a `str`."],["RelString","A relative counterpart to `String`."]]};

@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["New","An emplacer for a new, empty `RelVec`."],["RelVec","A relative counterpart to `Vec`."],["WithCapacity","An emplacer for a new `RelVec` with an initial capacity."]]};

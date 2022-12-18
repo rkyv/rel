@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["alloc","Memory alocation APIs."],["boxed","A pointer type for memory allocation."]]};

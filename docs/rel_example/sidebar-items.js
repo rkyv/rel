@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":[["main",""],["rel_box",""],["rel_string",""],["rel_vec",""],["rel_vec_rel_box",""]]};

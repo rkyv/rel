@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"mod":[["alloc","Memory allocation APIs."],["boxed","A pointer type for heap allocation."],["string","A UTF-8 encoded, growable string."],["vec","A contiguous growable array type with heap-allocated contents, written `RelVec<T>`."]],"trait":[["EmplaceIn","An extension trait for `Emplace` that provides an allocating emplacement function."]]};

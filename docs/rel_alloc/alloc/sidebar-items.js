@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"trait":[["RelAllocator","An `Allocator` that is suitable for allocating relative types."]]};

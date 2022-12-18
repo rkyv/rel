@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"struct":[["Align16","A type that aligns its contents to 16-byte boundaries."]]};
